@@ -1,16 +1,12 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Apr 03 07:30:34 2014
 
-@author: tim.meggs
-"""
 import itertools
 import numpy as np
 from membership import mfDerivs
 import copy
 
 class ANFIS:
-    """Class to implement an Adaptive Network Fuzzy Inference System: ANFIS"
+    """Class to implement ANFIS"
 
     Attributes:
         X
